@@ -6,7 +6,7 @@ logging.basicConfig(filename='news_output.log', level=logging.INFO, format='%(as
 
 # Initialize GoogleNews and get news results
 googlenews = GoogleNews(lang='dk')
-googlenews.get_news('APPLE')
+googlenews.get_news('NOVO NORDISK')
 news_results = googlenews.results()
 
 # Log the news results
