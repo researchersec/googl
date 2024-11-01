@@ -5,7 +5,7 @@ from GoogleNews import GoogleNews
 logging.basicConfig(filename='news_output.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
 # Initialize GoogleNews and get news results
-googlenews = GoogleNews(lang='en')
+googlenews = GoogleNews(lang='dk')
 googlenews.get_news('APPLE')
 news_results = googlenews.results()
 
